@@ -1,0 +1,22 @@
+{
+  "name": "nanopb-arduino",
+  "description": "Simple layer to convert arduino Streams into nanopb's pb_streams",
+  "keywords": "Print, Stream, nanopb, protobuf",
+  "authors":
+  {
+    "name": "Eric Wieser"
+  },
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/eric-wieser/nanopb-arduino.git"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "homepage": "https://github.com/eric-wieser/nanopb-arduino",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "dependencies": [
+    {"name": "Nanopb"}
+  ]
+}
