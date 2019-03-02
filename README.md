@@ -1,8 +1,7 @@
 nanopb-arduino
 ==============
 
-A simple ProtocolIO library for wrapping Arduino's [`Stream`](https://www.arduino.cc/en/Reference/Stream) and `Print`
-objects into [Nanopb](https://koti.kapsi.fi/jpa/nanopb/)'s `pb_istream_s` and `pb_ostream_s`.
+A simple [PlatformIO](https://platformio.org/) library for wrapping Arduino's [`Stream`](https://www.arduino.cc/en/Reference/Stream) and `Print` objects into [Nanopb](https://koti.kapsi.fi/jpa/nanopb/)'s `pb_istream_s` and `pb_ostream_s`.
 
 Exposes two functions that do exactly what you'd expect:
 
