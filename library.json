@@ -11,7 +11,7 @@
     "type": "git",
     "url": "https://github.com/eric-wieser/nanopb-arduino.git"
   },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "homepage": "https://github.com/eric-wieser/nanopb-arduino",
   "frameworks": "arduino",
