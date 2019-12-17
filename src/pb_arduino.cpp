@@ -20,8 +20,8 @@ static bool pb_stream_read(pb_istream_t *stream, pb_byte_t *buf, size_t count) {
 
 pb_istream_s as_pb_istream(Stream& s) {
 #ifndef PB_NO_ERRMSG
-    return { pb_stream_read, &s, SIZE_MAX, 0};
+    return {pb_stream_read, &s, SIZE_MAX, 0};
 #else
-    return { pb_stream_read, &s, SIZE_MAX};
+    return {pb_stream_read, &s, SIZE_MAX};
 #endif
 };
